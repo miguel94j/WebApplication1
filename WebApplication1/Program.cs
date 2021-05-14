@@ -26,6 +26,8 @@ namespace WebApplication1
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+
+                    //TAMBIEN QUIERO CREAR CONFLICTOS
                     webBuilder.UseStartup<Startup>();
                     webBuilder.UseStartup<Startup>();
                     webBuilder.UseStartup<Startup>();
