@@ -27,6 +27,9 @@ namespace WebApplication1
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     IWebHostBuilder webHostBuilder = webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();
                 });
     }
 }
