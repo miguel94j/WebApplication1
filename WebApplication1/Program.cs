@@ -28,8 +28,10 @@ namespace WebApplication1
                 {
                     IWebHostBuilder webHostBuilder = webBuilder.UseStartup<Startup>();
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseStartup<Startup>();
+                    
+                    //QUIERO UN CONFLICTO
                     webBuilder.UseStartup<Startup>();
                 });
+                //MAS CONFLICTOS
     }
 }
